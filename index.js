@@ -10,7 +10,7 @@ function loadFile(file, cb) {
     index += chunkSize;
     
     if(index < file.size)//continue
-   	 readChunk();  
+      readChunk();  
   };
 
   fileReader.onerror = function() {
