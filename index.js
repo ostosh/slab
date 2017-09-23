@@ -20,7 +20,7 @@ function loadFile(file, cb) {
   readChunk();//start 
 
   function readChunk() {
-      var nextChunk = file.slice(index, index + chunkSize);
-      fileReader.readAsBinaryString(nextChunk);
+    var nextChunk = file.slice(index, index + chunkSize);
+    fileReader.readAsBinaryString(nextChunk);
   }
 }
